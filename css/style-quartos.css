@@ -1,0 +1,43 @@
+/*Css da pagina "quartos"*/
+#containerImagem{
+    width: 100vw;
+    height: 30vh;
+}
+#imagemFundo{
+    background-image:url('../Imagens/img-fundo.jpg');
+    background-attachment: fixed;
+    width: 100vw;
+    height: 30vh;
+  
+}
+.secaoQuartos{
+    display: flex;
+    justify-content:center;
+}
+.imagemQuartos{
+    display: flex;
+    justify-content: center;
+    width: 30vw;
+}
+.imagemQuartos > img{
+    width: 29vw;
+    height: 20vw;
+}
+/*Css das listas*/
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.containerInformacoe{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin: 20px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 45vw;
+}

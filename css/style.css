@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    overflow-x: hidden;
+}
+/*menu*/
+a{
+    text-decoration: none;
+    color: black;
+}
+nav{ 
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: fixed;
+}
+#menu{
+    display: flex;
+    width: 1024px;
+    justify-content: space-between;
+    font-weight: 400;
+}
+.linkTopo{
+    font-size: 1.1em;
+}
+#menu > div{
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+   
+}
+span{
+    color:rgb(25, 147, 228);
+}
+/*primeira secao*/
+#imagemPrincipal{
+    background-image:url('../Imagens/img-fundo.jpg');
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#textoImagem{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    background-color: rgba(9, 107, 78, 0.637);
+    border: solid 1px white;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+/*secao dos quartos*/
+.descPrincipal{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.descPrincipal > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    line-height: 50px;
+    font-size: 1.1em;
+}
+.tituloDestaque{
+    font-weight: 500;
+    font-size: 2em;
+    color: rgba(0, 0, 0, 0.705)
+}
+#quartos{
+    display: flex;
+    justify-content: center;
+}
+.conteudoQuartos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    border-bottom: 3px solid rgba(9, 107, 78);
+    margin:20px
+}
+.imgQuartos > img{
+    width: 300px;
+    height: 190px;
+}
+.txtQuartos{
+    margin: 20px;
+    font-size: 1.3em;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.705);
+}
+/*secao rota*/
+iframe{
+    width: 100vw;
+}
+/*secao informacoes*/
+#mainInformacoes{
+    display:flex;
+    flex-wrap: wrap;  
+    justify-content: center;
+}
+.informacoes{
+    display: flex;
+    width: 40vw;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.informacoes > img{
+    width: 90px;
+    height: 100px;
+    margin: 10px;
+}
+.separaImg > h1{
+    font-size: 1.1em;
+}
+/*secao rodapé*/
+footer{
+    display: flex;
+    width: 100vw;
+    background-color:rgba(9, 107, 78, 0.637);
+    justify-content: center;
+    margin-top: 50px;
+}
+#footerMain{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+#dadosMain{
+    display: flex;
+    justify-content: space-between;
+}
+.dados{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.dados > img{
+    margin: 10px;
+}
+#copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 2px rgba(0, 0, 0, 0.212);
+    padding: 10px;
+}
